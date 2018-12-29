@@ -1,6 +1,6 @@
 ;<?php return; ?>
 [SQL]
-host = 127.0.0.1
-user = root
-password = root
-dbname = weborsa
+host = eu-cdbr-west-02.cleardb.net
+user = b9dd5a5232c446
+password = 7f8c51d9
+dbname = heroku_15b0a52b024fa81
