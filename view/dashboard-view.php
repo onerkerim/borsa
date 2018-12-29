@@ -1,5 +1,4 @@
 <?php include "header.php"; ?>
-SELAMLAR
 <div class="top-navbar" id="top-navbar">
                            
                                 <div class="row" style="padding-top: 10px; padding-left: 10px;">
