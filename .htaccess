@@ -1,0 +1,17 @@
+Options -Indexes
+RewriteEngine On
+
+
+RewriteRule ^([0-9a-zA-Z-_]+)$  index.php?url1=$1 [L,QSA]
+RewriteRule ^([0-9a-zA-Z-_]+)/$  index.php?url1=$1 [L,QSA]
+
+RewriteRule ^([0-9a-zA-Z-_]+)/([0-9a-zA-Z-_]+)$  index.php?url1=$1&url2=$2 [L,QSA]
+RewriteRule ^([0-9a-zA-Z-_]+)/([0-9a-zA-Z-_]+)/$  index.php?url1=$1&url2=$2 [L,QSA]
+
+
+#RewriteRule  ^(.*)$ index.php?url=$1
+
+
+
+
+
