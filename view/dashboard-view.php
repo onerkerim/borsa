@@ -3,9 +3,9 @@
                            
                                 <div class="row" style="padding-top: 10px; padding-left: 10px;">
                                     <div class="col-md-6">
-                                        <button href="http://weborsa.local/islem-create?islem_type=1" title="İşlem Oluştur (Alış)" type="button" class="btn btn-wd btn-outline-info m-t-5 ls-modal">Alış İşlemi</button>
+                                        <button href="http://weborsa.herokuapp.com/islem-create?islem_type=1" title="İşlem Oluştur (Alış)" type="button" class="btn btn-wd btn-outline-info m-t-5 ls-modal">Alış İşlemi</button>
 
-                                         <button href="http://weborsa.local/islem-create?islem_type=2" title="İşlem Oluştur (Satış)" type="button" class="btn btn-wd btn-outline-info m-t-5 ls-modal">
+                                         <button href="http://weborsa.herokuapp.com/islem-create?islem_type=2" title="İşlem Oluştur (Satış)" type="button" class="btn btn-wd btn-outline-info m-t-5 ls-modal">
                                           Satış İşlemi
                                         </button>
                                     </div>
@@ -144,7 +144,7 @@
 function islemDetay(id)
 {  
     $(".modal-title").text("İşlem Düzenle");
-  $('#exampleModal').modal('show').find('.modal-body').load("http://weborsa.local/islem-update?islem_type=update&id="+id);
+  $('#exampleModal').modal('show').find('.modal-body').load("http://weborsa.herokuapp.com/islem-update?islem_type=update&id="+id);
 }
 </script>
 
